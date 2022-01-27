@@ -1,26 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <cabecera></cabecera>
+  <tareas></tareas>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import cabecera from './components/cabecera.vue'
+import tareas from './components/tareas.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    tareas,cabecera
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body{
+	font-family: 'Baloo Tamma 2', cursive;
+  background-image: url("assets/Fondo.jpg");
 }
 </style>
